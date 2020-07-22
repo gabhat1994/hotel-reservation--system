@@ -5,10 +5,12 @@ import Home from "../src/pages/Home";
 import Rooms from "../src/pages/Rooms";
 import Error from "../src/pages/Error";
 import SingleRoom from "../src/pages/SingleRoom";
+import NavBar from "../src/Components/Navbar";
 
 function App() {
   return (
     <>
+      <NavBar />
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/rooms/" component={Rooms} exact />
