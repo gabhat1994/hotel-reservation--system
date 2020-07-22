@@ -1,5 +1,5 @@
 import React from "react";
-
+import Hero from "../Components/Hero";
 export default function Error() {
-  return <div>hello frtom error page</div>;
+  return <Hero />;
 }
